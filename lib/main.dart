@@ -1,3 +1,4 @@
+import 'package:hyper_ui/state_util.dart';
 import 'package:hyper_ui/core.dart';
 import 'package:flutter/material.dart';
 import 'package:hyper_ui/debug.dart';
@@ -5,7 +6,7 @@ import 'package:hyper_ui/debug.dart';
 void main() async {
   await initialize();
 
-  Get.mainTheme.value = getDarkTheme();
+  Get.mainTheme.value = getDefaultTheme();
   runMainApp();
 }
 

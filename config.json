@@ -1,0 +1,13 @@
+{
+    "openai_key": "",
+    "modules": [
+        "product_detail",
+        "elist1",
+        "elist2",
+        "elist3",
+        "edashboard1",
+        "edashboard2",
+        "edashboard3",
+        "main_menu"
+    ]
+}

@@ -58,6 +58,17 @@ Widget debugView({
                 const SizedBox(
                   height: 12.0,
                 ),
+                InkWell(
+                  onTap: () => Get.to(const MainMenuView()),
+                  child: const Icon(
+                    Icons.bug_report,
+                    color: Colors.white,
+                    size: 12.0,
+                  ),
+                ),
+                const SizedBox(
+                  height: 12.0,
+                ),
               ],
             ),
           ),
